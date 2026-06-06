@@ -90,7 +90,8 @@
 
 | 논리 설계도 | 물리 설계도 |
 |:-----------:|:-----------:|
-| ![논리 ERD](./Sine21-main/logical_erd.png) | ![물리 ERD](./Sine21-main/physical_erd.png) |
+| ![논리 ERD](https://raw.githubusercontent.com/HongTaeHun337/Sine21/main/logical_erd.png) 
+| ![물리 ERD](https://raw.githubusercontent.com/HongTaeHun337/Sine21/main/physical_erd.png)
 
 ---
 
