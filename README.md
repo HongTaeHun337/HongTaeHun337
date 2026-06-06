@@ -113,16 +113,6 @@
 > 이미 등록된 시간대에 중복 일정 삽입 가능 → 데이터 무결성 훼손  
 > → INSERT 전 기존 일정의 시작/종료 시간과 **겹치는지 검증하는 SELECT 쿼리**를 선행 실행하도록 수정, 중복 등록 원천 차단  
 > → **배운 점:** 프론트엔드 유효성 검사만으로는 부족하며, 백엔드 레이어에서의 철저한 데이터 Validation이 필수임을 체감
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HongTaeHun337&show_icons=true&theme=tokyonight&hide_border=true" height="160"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=HongTaeHun337&layout=compact&theme=tokyonight&hide_border=true" height="160"/>
-</p>
-
 ---
 
 <p align="center">
