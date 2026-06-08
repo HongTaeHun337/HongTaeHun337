@@ -1,4 +1,4 @@
-# 👋 Hong Tae Hun — Backend Developer
+#  Hong Tae Hun — Backend Developer
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=4F8EF7&center=true&vCenter=true&width=500&lines=Backend+Developer;Oracle+DB+%7C+Java+%7C+Spring;Data+Modeling+%26+Real-time+Service" alt="Typing SVG" />
@@ -9,18 +9,18 @@
 
 ---
 
-## 🧑‍💻 About Me
+##  1 About Me
 
 | 항목 | 내용 |
 |------|------|
-| 🎓 전공 | 서일대학교 소프트웨어공학 |
-| 📜 자격증 | 정보처리산업기사 필기 취득완료 실기 예정 |
-| 🔗 GitHub | [HongTaeHun337](https://github.com/HongTaeHun337) |
-| 💡 관심 분야 | 백엔드 API 설계, DB 모델링, 실시간 서비스 |
+|  전공 | 서일대학교 소프트웨어공학 |
+|  자격증 | 정보처리산업기사 필기 취득완료 실기 예정 |
+|  GitHub | [HongTaeHun337](https://github.com/HongTaeHun337) |
+|  관심 분야 | 백엔드 API 설계, DB 모델링, 실시간 서비스 |
 
 ---
 
-## 🛠 Tech Stack
+## 2 Tech Stack
 
 **Backend**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -37,11 +37,11 @@
 
 ---
 
-## 💼 Projects
+## 3 Projects
 
 ---
 
-### ✈️ TripTo — 여행 동행 매칭 플랫폼
+### 3-1 TripTo — 여행 동행 매칭 플랫폼
 
 > 혼자 여행하는 사람들이 취향과 일정이 맞는 동행자를 찾고, 실시간으로 소통할 수 있는 여행 커뮤니티 웹 서비스
 
@@ -58,27 +58,27 @@
 
 </details>
 
-**💡 나의 기여**
+** 나의 기여**
 
 | 역할 | 내용 |
 |------|------|
 | 동적 매칭 쿼리 | 성별·연령·여행지·기간·스타일 등 **5개 이상 다중 조건** 대응 MyBatis `<if>`, `<choose>` 동적 쿼리 구현 → Full Table Scan 방지 및 검색 응답 속도 개선 |
 | 실시간 채팅 구현 | `spring-websocket` 기반 채팅 채널 구축, 메시지 DB 저장 로직 작성 |
 
-> 🔧 **Troubleshooting — WebSocket 동시성 문제**  
+>  **Troubleshooting — WebSocket 동시성 문제**  
 > 다수 사용자 동시 접속/퇴장 시 세션 정보 충돌로 메시지 오전송 현상 발생  
 > → 세션 정보를 **`ConcurrentHashMap`** 으로 관리하여 Thread-Safe 동기화 달성, 안정성 확보
 
 ---
 
-### 🎬 씨네21 DB 모델링 — 영화 정보 관리 RDBMS 설계
+### 3-2 씨네21 DB 모델링 — 영화 정보 관리 RDBMS 설계
 
 > 국내 최대 영화 포털 씨네21을 벤치마킹한 대규모 DB 아키텍처 설계 프로젝트
 
 **기술 스택**  
 `Oracle DB` `eXERD` `SQL Developer` `DDL / DML`
 
-**💡 나의 기여**
+** 나의 기여**
 
 | 역할 | 내용 |
 |------|------|
@@ -86,7 +86,7 @@
 | 리뷰 구조 분리 | 일반 관람객 별점 ↔ 전문가 심층 비평 데이터 구조 분리 → 조회 시 병목 방지 및 확장성 확보 |
 | 더미 데이터 구축 | 개봉작 20여 편 기반 **더미 데이터 100건 이상** DML 작성, SEQUENCE + FK 연동으로 **데이터 무결성 오류 0% 달성** |
 
-**📊 ERD 설계도**
+** ERD 설계도**
 
 | 논리 설계도 | 물리 설계도 |
 |:-----------:|:-----------:|
@@ -95,26 +95,26 @@
 
 ---
 
-### 📅 Deverytime — 학습 일정 관리 웹 애플리케이션
+### 3-3 Deverytime — 학습 일정 관리 웹 애플리케이션
 
 > 학생·수험생의 체계적인 학습 일정 수립과 진척도 관리를 지원하는 MVC 기반 웹 서비스
 
 **기술 스택**  
 `Java` `JSP` `Servlet` `JDBC` `Apache Tomcat` `HTML/CSS/JavaScript`
 
-**💡 나의 기여**
+** 나의 기여**
 
 | 역할 | 내용 |
 |------|------|
 | 스케줄러 CRUD | 날짜·시간대별 학습 계획 등록/조회/수정/삭제 비즈니스 로직 및 DAO 패턴 적용 |
 | 캘린더 UI | JSP 기반 캘린더 뷰 설계 및 데이터 연동 |
 
-> 🔧 **Troubleshooting — 일정 중복 등록 문제**  
+>  **Troubleshooting — 일정 중복 등록 문제**  
 > 이미 등록된 시간대에 중복 일정 삽입 가능 → 데이터 무결성 훼손  
 > → INSERT 전 기존 일정의 시작/종료 시간과 **겹치는지 검증하는 SELECT 쿼리**를 선행 실행하도록 수정, 중복 등록 원천 차단  
 > → **배운 점:** 프론트엔드 유효성 검사만으로는 부족하며, 백엔드 레이어에서의 철저한 데이터 Validation이 필수임을 체감
 ---
 
 <p align="center">
-  <i>읽어주셔서 감사합니다 🙏</i>
+  <i>읽어주셔서 감사합니다 </i>
 </p>
