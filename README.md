@@ -9,7 +9,7 @@
 
 ---
 
-##  1 About Me
+##  1. About Me
 
 | 항목 | 내용 |
 |------|------|
@@ -20,7 +20,7 @@
 
 ---
 
-## 2 Tech Stack
+## 2. Tech Stack
 
 **Backend**  
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
@@ -37,11 +37,11 @@
 
 ---
 
-## 3 Projects
+## 3. Projects
 
 ---
 
-### 3-1 TripTo — 여행 동행 매칭 플랫폼
+### 3-1. TripTo — 여행 동행 매칭 플랫폼
 
 > 혼자 여행하는 사람들이 취향과 일정이 맞는 동행자를 찾고, 실시간으로 소통할 수 있는 여행 커뮤니티 웹 서비스
 
@@ -71,7 +71,7 @@
 
 ---
 
-### 3-2 씨네21 DB 모델링 — 영화 정보 관리 RDBMS 설계
+### 3-2. 씨네21 DB 모델링 — 영화 정보 관리 RDBMS 설계
 
 > 국내 최대 영화 포털 씨네21을 벤치마킹한 대규모 DB 아키텍처 설계 프로젝트
 
@@ -95,7 +95,7 @@
 
 ---
 
-### 3-3 Deverytime — 학습 일정 관리 웹 애플리케이션
+### 3-3. Deverytime — 학습 일정 관리 웹 애플리케이션
 
 > 학생·수험생의 체계적인 학습 일정 수립과 진척도 관리를 지원하는 MVC 기반 웹 서비스
 
